@@ -39,7 +39,7 @@ upper_temp = temps[1]
 # 送信
 
 # トークンの読み込み
-with open("token.txt", "r") as f:
+with open("token-code.txt", "r") as f:
     line_notify_token = f.read()
      
 line_notify_api = 'https://notify-api.line.me/api/notify'
